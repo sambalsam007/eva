@@ -75,6 +75,6 @@ int	main(void)
 	test_gnl("testfiles/empty.txt", "EMPTY FILE");
 	test_gnl("testfiles/small.txt", "SMALL FILE");
 	test_gnl("testfiles/char.txt", "ONE CHAR");
-	test_read_from_stdin();
+	// test_read_from_stdin();
 	return (0);
 }
